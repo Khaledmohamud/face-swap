@@ -23,10 +23,10 @@ A lightweight, efficient face-swapping engine designed for low-resource systems.
 - **Pillow** – blending and colour processing
 
 ## Architechture
-face-swap/
+```face-swap/
 |
 |–– swapper.py
 |
 |––shape_predictor_68_face_landmark.dat
 | # Required facial landmarking model
-
+```
