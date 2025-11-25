@@ -10,14 +10,23 @@ A lightweight, efficient face-swapping engine designed for low-resource systems.
 - Adjust tone + lighting for a natural result
 
 ## Features
-- 🔍 **Facial landmark detection** - takes landmarks from the source image and the target image
-- 🧩 **Feature extraction + alignment**
-- 🎨 **skin-tone and colour blending**
-- 🖼️ **Static image face-swapping**
+-  **Facial landmark detection** – takes landmarks from the source image and the target image
+-  **Feature extraction + alignment**
+-  **skin-tone and colour blending**
+-  **Static image face-swapping**
 
 ## Tech Stack
 - **Python3**
-- **OpenCV** - Image processing and warping
-- **Mediapipe** - Facial landmarks
-- **NumPy**- Numerical operations
-- **Pillow** - blending and colour processing
+- **OpenCV** – image processing and warping
+- **Mediapipe** – facial landmarks
+- **NumPy** – numerical operations
+- **Pillow** – blending and colour processing
+
+## Architechture
+face-swap/
+|
+|–– swapper.py
+|
+|––shape_predictor_68_face_landmark.dat
+| # Required facial landmarking model
+
